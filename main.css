@@ -1,0 +1,169 @@
+.custom-bg {
+    background-color: #e5e9ec; /* 薄いグレー */
+}
+
+
+.content-bg {
+    background-color: #ffffff; /* コンテンツエリアを白色に設定 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* コンテンツエリアに影をつけて浮き上がらせる */
+}
+
+
+.background{
+    background: linear-gradient(to right, #a8d3ef, #f0f0f0);
+}
+
+body {
+    font-family: 'Meiryo UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.background2{
+    background: linear-gradient(to right, #f0f0f0,  #f1f3f4);
+}
+
+.extra-spacing {
+    margin-top: 6rem;
+}
+
+.extra-spacing2 {
+    margin-top: 8rem;
+}
+
+.extra-spacing3 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.custom-border-dark {
+    border: 1px solid #333; /* 暗い色の線 */
+    background-color: #f4f1f1; /* 背景色を暗い色にする */
+    padding: 20px; /* 内側の余白 */
+    border-radius: 8px; /* 角を丸くする */
+}
+
+.custom-border-dark2 {
+    border: 1px solid #333; /* 暗い色の線 */
+    background-color: #f4f1f1; /* 背景色を暗い色にする */
+    padding: 2px; /* 内側の余白 */
+    border-radius: 8px; /* 角を丸くする */
+}
+
+.custom-border-yellow {
+    border: 1px solid #f8f5b4; /* 暗い色の線 */
+    background-color: #f8f5b4; /* 背景色を暗い色にする */
+    padding: 20px; /* 内側の余白 */
+    border-radius: 8px; /* 角を丸くする */
+}
+
+.custom-border-white {
+    border: 1px solid #f0f0ed; /* 暗い色の線 */
+    background-color: #a1a19ba9; /* 背景色を暗い色にする */
+    padding: 20px; /* 内側の余白 */
+    border-radius: 8px; /* 角を丸くする */
+}
+
+
+
+
+
+.border-line  {
+    background: linear-gradient(transparent 80%, #d5d8d9 60%);
+}
+
+.border-line2  {
+    background: linear-gradient(transparent 60%, #FFFE03 60%);
+}
+
+
+.box5 {
+    padding: 0.5em 1em;
+    border: double 5px #4ec4d3;
+}
+.box5 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box4{
+    padding: 8px 19px;
+    margin: 0em 0;
+    color: #2c2c2f;
+    background: #ccced1;
+    border-top: solid 5px #4a4b4d;
+    border-bottom: solid 5px #4a4b4d;
+}
+.box4 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box8 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #d3eff2;
+    border-left: solid 10px #474645;
+}
+.box8 p {
+    margin: 0; 
+    padding: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* 任意の最大幅を指定 */
+    max-height: 400px; /* 任意の最大高さを指定 */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* 横方向に中央寄せ */
+    align-items: center; /* 縦方向に中央寄せ（必要な場合） */
+}
+
+.bordered-text {
+    border: 1px solid rgb(234, 232, 232); /* 枠線の太さと色 */
+    padding: 10px; /* 枠線と文章の間の余白 */
+}
+
+.profile-image {
+    width: 150px; /* 任意の幅 */
+    height: 150px; /* 任意の高さ */
+    border-radius: 50%; /* 円形にする */
+    overflow: hidden; /* 枠からはみ出る部分を隠す */
+    margin: 0 auto; /* 中央寄せ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける場合 */
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 画像を枠にフィットさせる */
+}
+
+
+.profile-border {
+    position: relative;
+    padding: 0.5rem 0 0.1rem;
+    font-weight: bold;
+    font-size: 26px;
+    background-image: linear-gradient(135deg, #16b5dd 10%, #b2d5de 100%);
+    background-repeat: no-repeat;
+    background-size: 4rem 0.4rem;
+    background-position: bottom;
+    text-align: center;
+}
+
+.light-border {
+    padding: 1rem 0 0.1rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #66c5dd 0% 100%);
+    background-repeat: no-repeat;
+    background-size: 120px 2px;
+    background-position: left bottom;
+    font-weight: bold;
+    font-size: 26px;
+}
