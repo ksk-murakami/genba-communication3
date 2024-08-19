@@ -1,3 +1,58 @@
+/* 基本のスタイル設定 */
+.display-2 {
+    font-size: 3rem; /* デフォルトのフォントサイズ */
+}
+
+.fs-2 {
+    font-size: 2rem; /* デフォルトのフォントサイズ */
+}
+
+.fs-4 {
+    font-size: 1.5rem; /* デフォルトのフォントサイズ */
+}
+
+.fs-5 {
+    font-size: 1.25rem; /* デフォルトのフォントサイズ */
+}
+
+.lead {
+    font-size: 1.25rem; /* デフォルトのフォントサイズ */
+}
+
+/* メディアクエリで画面サイズが768px以下の場合のスタイル */
+@media (max-width: 768px) {
+    .display-2 {
+        font-size: 2.5rem; /* 小さくするフォントサイズ */
+    }
+
+    .fs-2 {
+        font-size: 1.5rem; /* 小さくするフォントサイズ */
+    }
+
+    .fs-4 {
+        font-size: 1.2rem; /* 小さくするフォントサイズ */
+    }
+
+    .fs-5 {
+        font-size: 1.0rem; /* 小さくするフォントサイズ */
+    }
+
+
+    .lead {
+        font-size: 1rem; /* 小さくするフォントサイズ */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 .custom-bg {
     background-color: #e5e9ec; /* 薄いグレー */
 }
@@ -167,3 +222,6 @@ video {
     font-weight: bold;
     font-size: 26px;
 }
+
+
+
